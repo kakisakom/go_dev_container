@@ -5,6 +5,6 @@
 // https://zenn.dev/spiegel/articles/20210223-go-module-aware-mode
 // https://qiita.com/hnishi/items/a9217249d7832ed2c035
 // https://qiita.com/uchiko/items/64fb3020dd64cf211d4e
-module github.com/watame/go_dev_container
+module example.com/go_dev_container
 
 go 1.17

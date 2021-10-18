@@ -7,7 +7,8 @@ import (
 	"fmt"
 
 	// インポート定義を追加した後に`go build main.go`を行う事でgo.modに追加読み込みされる
-	"github.com/watame/go_dev_container/hello"
+	"example.com/go_dev_container/hello"
+	"example.com/go_dev_container/test"
 )
 
 // エントリーポイントはmainという関数として定義する必要がある
@@ -22,4 +23,5 @@ func main() {
 	fmt.Println("Hello, Go-lang!!")
 	name := hello.Input("type your name.")
 	fmt.Println("Hello " + name + "!!")
+	test.TestEcho()
 }
